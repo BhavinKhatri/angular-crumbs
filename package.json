@@ -7,6 +7,8 @@
     "style.css"
   ],
   "scripts": {
+    "n" : "n",
+    "ng": "ng update @angular/core@12",
     "lint": "tslint \"src/**/*.ts\" --project tsconfig.json --type-check",
     "clean": "rimraf .tmp && rimraf dist",
     "transpile": "ngc",
@@ -39,10 +41,12 @@
     "zone.js": "^0.8.12"
   },
   "devDependencies": {
+    "@angular/cli": "^16.1.0",
     "@angular/compiler": "^4.2.4",
     "@angular/compiler-cli": "^4.2.4",
     "codelyzer": "^3.1.1",
     "cpx": "^1.5.0",
+    "n": "^9.1.0",
     "renamer": "^0.6.1",
     "rimraf": "^2.5.4",
     "rollup": "^0.43.0",
